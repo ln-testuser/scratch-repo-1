@@ -3,4 +3,5 @@ steps:
   hello:
     image: alpine:latest
     commands:
+      - echo FROM PR
       - echo hello world
